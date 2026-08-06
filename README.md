@@ -22,8 +22,8 @@ This repository contains the downstream analysis pipeline for the ML-CASCI frame
 
 | Folder | Description |
 |---|---|
-| `NEB_generate_ref` | Generate NEB reference data |
 | `NEB_Part_1` / `NEB_Part_2` / `NEB_Part_3` | Evaluate model predictions along the 32-image NEB reaction path (connecting DVA and PYR), including subspace-overlap error analysis in regions of orbital character change, split into three parts |
+| `NEB_generate_ref` | Generate NEB reference data |
 
 ## Data Notes
 
