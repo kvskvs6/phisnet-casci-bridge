@@ -1,0 +1,19 @@
+ &GATEWAY
+* there should be a symbolic link to xyz file in directory above
+	coord=structure.xyz
+	basis=ANO-L-VDZP
+	group=NoSym
+>> Do While
+&SEWARD
+
+&RASSCF
+	fileorb = orbitals.Orb
+	Spin = 1
+	Nactel = 6 0 0
+	Inactive = 16
+	Ras2 = 5
+	CiRoot = 3 3 1
+	RLXRoot = 1
+
+&SLAPAF
+>> EndDo

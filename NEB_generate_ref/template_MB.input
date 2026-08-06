@@ -1,0 +1,16 @@
+ &GATEWAY
+* there should be a symbolic link to xyz file in directory above
+	coord=structure.xyz
+	basis=ANO-S-MB
+	group=NoSym
+ &SEWARD
+ &RASSCF
+* there should be a symbolic link to the correct orbital file
+	fileorb=initial_orbital_guess.Orb
+	spin=1
+	nactel=6 0 0
+	ras2=5
+	inactive=16
+	ciroot=3 3 1
+	OutOrbitals=Canonical
+	Order=1

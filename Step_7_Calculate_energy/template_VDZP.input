@@ -1,0 +1,17 @@
+ &GATEWAY
+* there should be a symbolic link to xyz file in directory above
+	coord=structure.xyz
+	basis=ANO-L-VDZP
+	group=NoSym
+ &SEWARD
+* calculate integrals
+ &RASSCF
+    cionly
+	fileorb=orbitals.Orb
+	spin=1
+	nactel=6 0 0
+	ras2=5
+	inactive=16
+	ciroot=3 3 1
+	OutOrbitals=Canonical
+	Order=0
